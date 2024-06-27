@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+body {
+    font-family: sans-serif;
+    width: 1355px;
+    height: 3100px;
+}
+
+p {
+    color: #667085;
+}
+
+nav {
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top: -70px;
+    margin-left: 250px;
+    position: relative; /*Conferir como usa o atributo "position", seja absolute, relative etc. */
+}
+
+nav li {
+    display: inline-block;
+    color: #667085;
+    font-size: 13pt;
+    padding: 15px;
+}
+
+a {
+    color: #888;
+    text-decoration: none;
+}
+
+div.botoes {
+    float: right;
+    margin-top: -65px;
+    margin-right: 90px;
+
+}
+
+button.botao1 {
+    background-color: white;
+    color: rgb(134, 29, 29);
+    border-radius: 5px;
+    font-size: 12pt;
+    padding: 10px;
+    margin: 3px;
+    border: none;
+}
+
+button.botao2 {
+    color: white;
+    background-color: rgb(134, 29, 29);
+    font-size: 12pt;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+    border: none;
+}
+
+h3.primeiro_titulo_menor {
+    color: rgb(134, 29, 29);
+    text-align: center;
+    font-size: 13pt;
+    margin-top: 80px;
+}
+
+h1.primeiro_titulo_maior {
+    font-size: 40pt;
+    color: #101828;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px #101828;
+
+}
+
+h1.segundo_titulo_maior {
+    font-size: 27pt;
+    color: #101828;
+    text-align: center;
+    margin-top: 30px;
+}
+
+p.p1 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 16pt;
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+p.p2 {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: normal;
+}
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    gap: 30px;    
+    margin-bottom: 80px;
+}
+
+.grades {
+    padding: 15px;
+}
+
+.titulo_grade {
+    font-size: 50pt;
+    color: rgb(134, 29, 29);
+}
+
+h3.subtitulo_grade {
+    margin-top: -35px;
+    font-size: 14pt;
+}
+
+h4.down_met {
+    text-align: center;
+    font-size: 11pt;
+    color: rgb(134, 29, 29);
+    background-color: rgb(245, 216, 216);
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    margin-left: 600px;
+}
+
+img.da_galera {
+    width: 1000px;
+    height: 400px;
+    margin-left: 170px;
+}
+
+h3.subtitulo_vagas {
+    color:#101828;
+    margin-top: 60px;
+    margin-left: 250px;
+    font-size: 16pt;
+}
+
+div.vagas {
+    margin-left: 280px;
+    border: 0.3px solid #d7d9de;
+    width: 820px;
+    height: 110px;
+    border-radius: 8px;
+    margin-bottom: 13px;
+
+}
+
+span.profi {
+    color: #101828;
+    font-size: 15pt;
+    padding: 10px;
+}
+
+li.item_vagas {
+    display: inline-block;
+    color: #667085;
+    font-size: 14pt;
+    font-weight: normal;
+    padding: 10px;
+}
+
+div.depoimentos {
+    background: rgb(245, 216, 216);
+    width: 1300px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+h4.titmenor_depoimentos {
+    font-size: 11pt;
+    color: rgb(134, 29, 29);
+    background-color: rgb(245, 216, 216);
+    margin-top: 120px;
+    margin-left: 425px;
+    margin-bottom: -30px;
+    padding: 50px;
+}
+
+img.imagem_julia {
+    margin-top: 15px;
+    margin-left: 620px;
+}
+
+h4.nome_dev_web {
+    margin-top: 8px;
+    color: #667085;
+    text-align: center;
+}
+
+footer {
+    background: #f9fafb;
+    height: 320px;
+    margin-top: 110px;
+    padding-top: 20px;
+    margin-left: -6px;
+}
+
+div.rodape {
+    margin-top: 40px;
+    text-align: center;
+}
+
+input {
+    padding: 15px;
+    height: 7px;
+    width: 250px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: 0.5px solid #d7d9de;
+}
+
+span.direitos {
+    color: #98a2b3;
+    font-size: 13pt;
+    font-weight: normal;
+}
